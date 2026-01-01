@@ -1,4 +1,4 @@
-console.log("JS berjalan");
+console.log("app loaded");
 
 const form = document.getElementById("registerForm");
 const nameInput = document.getElementById("name");
@@ -66,3 +66,5 @@ function blacklistUser(index) {
   users[index].status = "blacklist";
   renderUsers();
 }
+
+
